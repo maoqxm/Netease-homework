@@ -1,0 +1,158 @@
+/* reset */
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: Helvetica, Arial, "Microsoft Yahei";
+}
+a{
+    color: #39a030;
+    text-decoration: none;
+}
+.main{
+    width: 1206px;
+    margin: 0 auto;
+    height: 100%;
+}
+#tip{
+    height:36px;
+    background:#f3f3f3;
+}
+#tip span{
+    font: 12px/36px "微软雅黑";
+}
+#tip .cancel{
+    float: right;
+}
+#tip .cancel:hover{
+    cursor: pointer;
+}
+#navigation{
+    height: 90px;
+}
+#navigation .main{
+    line-height: 90px;
+}
+#navigation .title{
+    float: left;
+    margin-right:30px;
+    font-size: 22px;
+}
+#title_en{
+    font:bold 22px "Arial";
+    color: #39a030;
+    width: 110px;
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px #21a557 solid;
+}
+#navigation .focus{
+    float: left;
+    margin-right: 15px;
+}
+#focus_btn{
+    display: inline-block;
+    width: 54px;
+    height: 20px;
+    text-align: center;
+    font: 12px/20px "宋体";
+    color: white;
+    background-color:#21a557;
+    border-radius: 2px;
+}
+#navigation .fans{
+    display: inline-block;
+    font-size: 12px;
+    font-family: "宋体";
+}
+#navigation .link{
+    float: right;
+}
+#navigation .link li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 55px;
+    font-size: 16px;
+}
+#navigation .link a{
+    color: black;
+}
+#navigation .link a:hover{
+    color: #39a030;
+}
+#banner{
+    height:460px;
+    background:#a2b3c8;
+    position: relative;
+}
+#banner .pointer{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translate(-50%,0);
+}
+#banner .pointer li{
+    list-style: none;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
+#banner .pointer li+li{
+    margin-left: 10px;
+}
+#banner .pointer li:hover{
+    cursor: pointer;
+}
+#product{
+    height:300px;
+}
+#product ul{
+    height: 100%;
+}
+#product li{
+    float: left;
+    list-style: none;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 33%;
+    height: 300px;
+    padding: 60px 0;
+}
+#product .product img{
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin:5px 0 0 5px;
+}
+#product .intro{
+    margin-left: 105px;
+    overflow: hidden;
+    width: 245px;
+}
+#product h3{
+    font-size: 22px;
+    color: #333;
+}
+#product p{
+    font-size: 14px;
+    margin:20px 0 30px 0;
+    color: #666;
+}
+#product a:hover{
+    text-decoration: underline;
+}
+#environment{
+    height:220px;
+    background-color:#d9b4c4;
+}
+#content{
+    height:1550px;
+    background-color:#d9d9c4;
+}
+#footer{
+    height:260px;
+    background-color:#b6b6d9;
+}
