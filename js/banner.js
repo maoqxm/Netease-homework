@@ -1,3 +1,11 @@
+// 动态生成banner高度
+function bannerHeight(){
+    var banner = document.getElementById("banner");
+    var li = document.getElementById("list").getElementsByTagName("li")[0];
+    var liLen = window.getComputedStyle(li,null).getPropertyValue("height");
+    banner.style.height = liLen;
+}
+window.onload = bannerHeight();
 // 判断obj是否有此class
 function hasClass(obj,cls){
     return obj.className.match(new RegExp('(\\s|^)' + cls + '(\\s|$)'));
