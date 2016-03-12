@@ -74,6 +74,7 @@ li{
 }
 #navigation .link{
     float: right;
+    background: url(../icon/搜索.png) no-repeat 100% 50%;
 }
 #navigation .link li{
     display: inline-block;
@@ -164,16 +165,12 @@ li{
 #environment, #content, #footer{
     background-color: #f8f8f8;
 }
-#environment{
-    height:220px;
-}
 #environment img{
     box-sizing: border-box;
-    width: 20%;
-    height: 220px;
+    width: 19.8%;
 }
 #environment img + img{
-    padding-left: 4px;
+    margin-left: 4px;
 }
 #content{
     height:1550px;
