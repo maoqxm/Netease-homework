@@ -89,7 +89,7 @@ li{
 }
 #banner{
     position: relative;
-    overflow:hidden;
+    overflow: hidden;
 }
 #list img{
     width:100%;
@@ -135,9 +135,12 @@ li{
     float: left;
     display: inline-block;
     box-sizing: border-box;
-    width: 33%;
+    width: 350px;
     height: 300px;
     padding: 60px 0;
+}
+#product li + li{
+    margin-left: 78px;
 }
 #product .product img{
     float: left;
