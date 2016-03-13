@@ -12,7 +12,7 @@ function hasClass(obj, cls){
 // 增加cls类
 function addClass(obj, cls){
     if (!hasClass(obj,cls)){
-        obj.className += cls;
+        obj.className += ' ' + cls;
     }
 }
 // 移除cls类
