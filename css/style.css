@@ -169,11 +169,10 @@ li{
     background-color: #f8f8f8;
 }
 #environment img{
-    box-sizing: border-box;
     width: 19.8%;
 }
 #environment img + img{
-    margin-left: 4px;
+    margin-left: 0.25%;
 }
 #content{
     height:1550px;
