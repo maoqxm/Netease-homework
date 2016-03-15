@@ -28,10 +28,10 @@ li{
 #tip span{
     font: 12px/36px "微软雅黑";
 }
-#tip .cancel{
+#tip #tip_noremind{
     float: right;
 }
-#tip .cancel:hover{
+#tip #tip_noremind:hover{
     cursor: pointer;
 }
 #navigation{
@@ -64,8 +64,31 @@ li{
     text-align: center;
     font: 12px/20px "宋体";
     color: white;
-    background-color:#21a557;
+    background-color: #21a557;
     border-radius: 2px;
+}
+#focus_btn:hover{
+    background-color: #2fb556;
+    cursor: pointer;
+}
+#focused_btn{
+    display: none;
+    width: 105px;
+    height: 20px;
+    text-align: center;
+    font: 12px/20px "宋体";
+    border: 1px solid #efefef;
+}
+#focused_btn_devide{
+    color: #ccc;
+}
+#focused_btn_cancel{
+    color: #999;
+}
+#focused_btn_cancel:hover{
+    color: #39a030;
+    text-decoration: underline;
+    cursor: pointer;
 }
 #navigation .fans{
     display: inline-block;
